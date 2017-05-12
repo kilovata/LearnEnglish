@@ -39,7 +39,7 @@
                                 <rect key="frame" x="0.0" y="22" width="375" height="77"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="N7a-hG-tzc" id="BKn-xQ-9BQ">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="76.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loN-VF-69B">
@@ -83,6 +83,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="708" y="-630.13493253373315"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="uGV-65-lbz">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="f7K-Df-RJu" customClass="DetailViewController" customModule="LearnEnglish" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C3G-5V-Tx4"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mbe-Cs-hOq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7NX-ln-g0z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lqs-R1-fXd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="f7K-Df-RJu" id="CMO-uq-pnQ"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lqs-R1-fXd" firstAttribute="top" secondItem="7NX-ln-g0z" secondAttribute="top" id="3cw-w9-6GA"/>
+                            <constraint firstItem="Mbe-Cs-hOq" firstAttribute="top" secondItem="Lqs-R1-fXd" secondAttribute="bottom" id="7kN-C1-mTH"/>
+                            <constraint firstAttribute="trailing" secondItem="Lqs-R1-fXd" secondAttribute="trailing" id="Bu2-5e-X4H"/>
+                            <constraint firstItem="Lqs-R1-fXd" firstAttribute="leading" secondItem="7NX-ln-g0z" secondAttribute="leading" id="Wnr-nk-pfQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="Lqs-R1-fXd" id="zIy-kj-Yvb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Yz-gX-9Yh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1420" y="-630.13493253373315"/>
         </scene>
     </scenes>
 </document>

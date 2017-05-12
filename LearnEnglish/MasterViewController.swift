@@ -14,6 +14,7 @@ enum DictionaryType: String
     case verbs
     case idioms
     case phrases
+    case textsVideos = "texts & videos"
 }
 
 enum Language: String
@@ -80,6 +81,11 @@ class MasterViewController: UITableViewController
             self.changeDictionary()
         }))
         
+        alert.addAction(UIAlertAction(title: DictionaryType.textsVideos.rawValue, style: UIAlertActionStyle.default, handler: { (action) in
+            self.currentType = .textsVideos
+            self.changeDictionary()
+        }))
+        
         alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel, handler: { (action) in
             self.dismiss(animated: true, completion: {
                 
@@ -130,14 +136,22 @@ class MasterViewController: UITableViewController
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SubtitleCell", for: indexPath) as! SubtitleCell
-
         let item = currentWords[indexPath.row]
-        cell.labelTitle.text = currentLanguge == .eng ? item["eng"] : item["rus"]
         
-        if showTranslation {
-            cell.labelSubTitle.text = currentLanguge == .eng ? item["rus"] : item["eng"]
-        } else {
+        if currentType == .textsVideos
+        {
+            cell.labelTitle.text = item["eng"]
             cell.labelSubTitle.text = nil
+        }
+        else
+        {
+            cell.labelTitle.text = currentLanguge == .eng ? item["eng"] : item["rus"]
+            
+            if showTranslation {
+                cell.labelSubTitle.text = currentLanguge == .eng ? item["rus"] : item["eng"]
+            } else {
+                cell.labelSubTitle.text = nil
+            }
         }
         
         return cell
@@ -145,7 +159,26 @@ class MasterViewController: UITableViewController
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-        showTranslation = !showTranslation
+        if currentType == .textsVideos
+        {
+            let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+            let detailVC:DetailViewController = storyBoard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+            navigationController?.pushViewController(detailVC, animated: true)
+            
+            let item = currentWords[indexPath.row]
+            detailVC.titleScreen = item["eng"]!
+            
+            var link = "https://www.lang-kit.ru/em3"
+            if indexPath.row > 0 {
+                link = link.appending("\(indexPath.row + 1)")
+            }
+            print(link)
+            detailVC.link = link
+        }
+        else
+        {
+            showTranslation = !showTranslation
+        }
         tableView.reloadData()
     }
 }
