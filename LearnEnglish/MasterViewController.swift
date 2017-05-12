@@ -34,7 +34,7 @@ class MasterViewController: UITableViewController
     {
         super.viewDidLoad()
         
-        title = "Eng -> Rus"
+        title = "🇬🇧 ➝ 🇷🇺"
         navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(changeWordTypes))
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .rewind, target: self, action: #selector(changeMainLanguage))
         tableView.rowHeight = UITableViewAutomaticDimension
@@ -97,12 +97,12 @@ class MasterViewController: UITableViewController
         {
             case .eng:
             currentLanguge = .rus
-            title = "Rus -> Eng"
+            title = "🇷🇺 ➝ 🇬🇧"
             break
             
             case .rus:
             currentLanguge = .eng
-            title = "Eng -> Rus"
+            title = "🇬🇧 ➝ 🇷🇺"
             break
         }
         
