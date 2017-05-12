@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>eng</key>
+		<string>reckon</string>
+		<key>rus</key>
+		<string>думать, считать</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>spread</string>
+		<key>rus</key>
+		<string>распространять</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>tempt</string>
+		<key>rus</key>
+		<string>искушать, уговаривать, склонять</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>conquer</string>
+		<key>rus</key>
+		<string>завоевывать, преодолевать</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>hang out</string>
+		<key>rus</key>
+		<string>проводить время, тусоваться</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>obtain</string>
+		<key>rus</key>
+		<string>получать</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>pick on somebody</string>
+		<key>rus</key>
+		<string>задевать, придираться к кому-то</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>praise</string>
+		<key>rus</key>
+		<string>хвалить</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>convince</string>
+		<key>rus</key>
+		<string>убеждать, уговаривать</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>owe</string>
+		<key>rus</key>
+		<string>быть должным, задолжать</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>puke</string>
+		<key>rus</key>
+		<string>тошнить</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>embarrass</string>
+		<key>rus</key>
+		<string>смущать, конфузить</string>
+	</dict>
+</array>
+</plist>

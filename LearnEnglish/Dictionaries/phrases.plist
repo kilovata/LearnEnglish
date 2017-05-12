@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>eng</key>
+		<string>spread yourself too thin</string>
+		<key>rus</key>
+		<string>слишком расточать себя</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>take risks and conquer your fear</string>
+		<key>rus</key>
+		<string>рискуй и преодолевай свой страх</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>embrase who you are and don&apos;t make any apoligies for being yourself</string>
+		<key>rus</key>
+		<string>примите себя и не извиняйтесь за то, кто вы есть</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>in my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since</string>
+		<key>rus</key>
+		<string>Гэтсби</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>when you&apos;re better than others it&apos;s best to let them know in no uncertain terms so that they won&apos;t embarrass themselves by questioning your decisions and actions</string>
+		<key>rus</key>
+		<string>Когда вы лучше других, лучше дать им знать в недвусмысленных выражениях, чтобы они не смущали себя, подвергая сомнению свои решения и действия</string>
+	</dict>
+</array>
+</plist>

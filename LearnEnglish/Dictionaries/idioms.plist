@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>eng</key>
+		<string>to feel under the weather</string>
+		<key>rus</key>
+		<string>плохо себя чувствовать</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>add insult to injury</string>
+		<key>rus</key>
+		<string>сыпать соль на рану, делать еще хуже, чем было</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>beat around the bush</string>
+		<key>rus</key>
+		<string>ходить вокруг да около</string>
+	</dict>
+    <dict>
+        <key>eng</key>
+        <string>fortune favours the brave (bold)</string>
+        <key>rus</key>
+        <string>удача улыбается смелым</string>
+    </dict>
+    <dict>
+        <key>eng</key>
+        <string>call the shots</string>
+        <key>rus</key>
+        <string>быть главным</string>
+    </dict>
+    <dict>
+        <key>eng</key>
+        <string>sugar-coat</string>
+        <key>rus</key>
+        <string>приукрасить, подсластить (горькую правду)</string>
+    </dict>
+</array>
+</plist>

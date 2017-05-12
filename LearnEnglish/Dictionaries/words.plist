@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>eng</key>
+		<string>arduous</string>
+		<key>rus</key>
+		<string>трудный, сложный</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>grief</string>
+		<key>rus</key>
+		<string>горе, беда</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>seduction</string>
+		<key>rus</key>
+		<string>обольщение, соблазн</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>shallow</string>
+		<key>rus</key>
+		<string>мелкая (вода), поверхностный (человек)</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>bully</string>
+		<key>rus</key>
+		<string>хулиган, задира</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>consumption</string>
+		<key>rus</key>
+		<string>потребление</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>vulnerable</string>
+		<key>rus</key>
+		<string>уязвимый, ранимый</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>attempt</string>
+		<key>rus</key>
+		<string>попытка</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>well-being</string>
+		<key>rus</key>
+		<string>благополучие, здоровье</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>thighs</string>
+		<key>rus</key>
+		<string>бедра</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>pathetic</string>
+		<key>rus</key>
+		<string>жалкий, ничтожный</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>impudent</string>
+		<key>rus</key>
+		<string>нахальный, дерзкий, бесстыжий</string>
+	</dict>
+</array>
+</plist>
