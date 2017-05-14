@@ -29,7 +29,6 @@ class MasterViewController: UITableViewController
     var currentType = DictionaryType.words
     var currentLanguge = Language.eng
     var showTranslation = true
-    var link = "https://www.lang-kit.ru/em3"
     
 
     override func viewDidLoad()
@@ -197,12 +196,7 @@ class MasterViewController: UITableViewController
             
             let item = currentWords[indexPath.row]
             detailVC.titleScreen = item[Language.eng.rawValue]!
-            
-            if indexPath.row > 0 {
-                link = link.appending("\(indexPath.row + 1)")
-            }
-            print(link)
-            detailVC.link = link
+            detailVC.fileName = "em" + "\(indexPath.row + 1)"
         }
         else
         {

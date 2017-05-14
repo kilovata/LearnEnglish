@@ -14,7 +14,7 @@ class DetailViewController: UIViewController, UIWebViewDelegate
     @IBOutlet weak var web: UIWebView!
     @IBOutlet weak var indicator: UIActivityIndicatorView!
     var titleScreen: String = ""
-    var link: String = ""
+    var fileName: String = ""
     
     override func viewDidLoad()
     {
@@ -22,11 +22,12 @@ class DetailViewController: UIViewController, UIWebViewDelegate
         
         title = titleScreen
         
-        if let url = URL(string: link)
+        if let fileUrl = Bundle.main.url(forResource: fileName, withExtension: "webarchive")
         {
-            let request = URLRequest(url: url)
+            let request = URLRequest(url: fileUrl)
             web.loadRequest(request)
         }
+        
     }
     
     public func webViewDidStartLoad(_ webView: UIWebView)
