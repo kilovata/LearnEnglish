@@ -9,9 +9,10 @@
 import Foundation
 import UIKit
 
-class DetailViewController: UIViewController
+class DetailViewController: UIViewController, UIWebViewDelegate
 {
     @IBOutlet weak var web: UIWebView!
+    @IBOutlet weak var indicator: UIActivityIndicatorView!
     var titleScreen: String = ""
     var link: String = ""
     
@@ -19,8 +20,6 @@ class DetailViewController: UIViewController
     {
         super.viewDidLoad()
         
-        navigationItem.backBarButtonItem?.title = ""
-        navigationItem.leftBarButtonItem?.title = ""
         title = titleScreen
         
         if let url = URL(string: link)
@@ -28,5 +27,15 @@ class DetailViewController: UIViewController
             let request = URLRequest(url: url)
             web.loadRequest(request)
         }
+    }
+    
+    public func webViewDidStartLoad(_ webView: UIWebView)
+    {
+        indicator.startAnimating()
+    }
+
+    public func webViewDidFinishLoad(_ webView: UIWebView)
+    {
+        indicator.stopAnimating()
     }
 }

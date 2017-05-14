@@ -20,23 +20,29 @@
 		<key>rus</key>
 		<string>ходить вокруг да около</string>
 	</dict>
-    <dict>
-        <key>eng</key>
-        <string>fortune favours the brave (bold)</string>
-        <key>rus</key>
-        <string>удача улыбается смелым</string>
-    </dict>
-    <dict>
-        <key>eng</key>
-        <string>call the shots</string>
-        <key>rus</key>
-        <string>быть главным</string>
-    </dict>
-    <dict>
-        <key>eng</key>
-        <string>sugar-coat</string>
-        <key>rus</key>
-        <string>приукрасить, подсластить (горькую правду)</string>
-    </dict>
+	<dict>
+		<key>eng</key>
+		<string>fortune favours the brave (bold)</string>
+		<key>rus</key>
+		<string>удача улыбается смелым</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>call the shots</string>
+		<key>rus</key>
+		<string>быть главным</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>sugar-coat</string>
+		<key>rus</key>
+		<string>приукрасить, подсластить (горькую правду)</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>head over heels (in love)</string>
+		<key>rus</key>
+		<string>влюблен по уши</string>
+	</dict>
 </array>
 </plist>

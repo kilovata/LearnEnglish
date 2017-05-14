@@ -29,6 +29,7 @@ class MasterViewController: UITableViewController
     var currentType = DictionaryType.words
     var currentLanguge = Language.eng
     var showTranslation = true
+    var link = "https://www.lang-kit.ru/em3"
     
 
     override func viewDidLoad()
@@ -59,30 +60,35 @@ class MasterViewController: UITableViewController
     
     func changeWordTypes()
     {
-        let alert = UIAlertController(title: "Choose type", message: nil, preferredStyle: .actionSheet)
+        let alert = UIAlertController(title: "Choose dictionary", message: nil, preferredStyle: .actionSheet)
         
         alert.addAction(UIAlertAction(title: DictionaryType.words.rawValue, style: UIAlertActionStyle.default, handler: { (action) in
             self.currentType = .words
+            self.updateTitle()
             self.changeDictionary()
         }))
         
         alert.addAction(UIAlertAction(title: DictionaryType.verbs.rawValue, style: UIAlertActionStyle.default, handler: { (action) in
             self.currentType = .verbs
+            self.updateTitle()
             self.changeDictionary()
         }))
         
         alert.addAction(UIAlertAction(title: DictionaryType.idioms.rawValue, style: UIAlertActionStyle.default, handler: { (action) in
             self.currentType = .idioms
+            self.updateTitle()
             self.changeDictionary()
         }))
         
         alert.addAction(UIAlertAction(title: DictionaryType.phrases.rawValue, style: UIAlertActionStyle.default, handler: { (action) in
             self.currentType = .phrases
+            self.updateTitle()
             self.changeDictionary()
         }))
         
         alert.addAction(UIAlertAction(title: DictionaryType.textsVideos.rawValue, style: UIAlertActionStyle.default, handler: { (action) in
             self.currentType = .textsVideos
+            self.updateTitle()
             self.changeDictionary()
         }))
         
@@ -103,18 +109,40 @@ class MasterViewController: UITableViewController
         {
             case .eng:
             currentLanguge = .rus
-            title = "🇷🇺 ➝ 🇬🇧"
             break
             
             case .rus:
             currentLanguge = .eng
-            title = "🇬🇧 ➝ 🇷🇺"
             break
         }
         
+        updateTitle()
         tableView.reloadData()
     }
     
+    func updateTitle()
+    {
+        if currentType == .textsVideos
+        {
+            title = ""
+            navigationItem.rightBarButtonItem = nil
+        }
+        else
+        {
+            switch currentLanguge
+            {
+            case .eng:
+                title = "🇷🇺 ➝ 🇬🇧"
+                break
+                
+            case .rus:
+                title = "🇬🇧 ➝ 🇷🇺"
+                break
+            }
+            navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .rewind, target: self, action: #selector(changeMainLanguage))
+        }
+    }
+
     func changeDictionary()
     {
         setupDictionary()
@@ -135,20 +163,22 @@ class MasterViewController: UITableViewController
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "SubtitleCell", for: indexPath) as! SubtitleCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: SubtitleCell.self), for: indexPath) as! SubtitleCell
         let item = currentWords[indexPath.row]
+        let textNum = "\(indexPath.row + 1). "
         
         if currentType == .textsVideos
         {
-            cell.labelTitle.text = item["eng"]
+            cell.labelTitle.text = textNum + item[Language.eng.rawValue]!
             cell.labelSubTitle.text = nil
         }
         else
         {
-            cell.labelTitle.text = currentLanguge == .eng ? item["eng"] : item["rus"]
+            let text = currentLanguge == .eng ? item[Language.eng.rawValue] : item[Language.rus.rawValue]
+            cell.labelTitle.text = textNum + text!
             
             if showTranslation {
-                cell.labelSubTitle.text = currentLanguge == .eng ? item["rus"] : item["eng"]
+                cell.labelSubTitle.text = currentLanguge == .eng ? item[Language.rus.rawValue] : item[Language.eng.rawValue]
             } else {
                 cell.labelSubTitle.text = nil
             }
@@ -162,13 +192,12 @@ class MasterViewController: UITableViewController
         if currentType == .textsVideos
         {
             let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
-            let detailVC:DetailViewController = storyBoard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+            let detailVC:DetailViewController = storyBoard.instantiateViewController(withIdentifier: String(describing: DetailViewController.self)) as! DetailViewController
             navigationController?.pushViewController(detailVC, animated: true)
             
             let item = currentWords[indexPath.row]
-            detailVC.titleScreen = item["eng"]!
+            detailVC.titleScreen = item[Language.eng.rawValue]!
             
-            var link = "https://www.lang-kit.ru/em3"
             if indexPath.row > 0 {
                 link = link.appending("\(indexPath.row + 1)")
             }
@@ -179,6 +208,7 @@ class MasterViewController: UITableViewController
         {
             showTranslation = !showTranslation
         }
+        
         tableView.reloadData()
     }
 }

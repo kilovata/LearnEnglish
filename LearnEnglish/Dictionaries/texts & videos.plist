@@ -4,47 +4,59 @@
 <array>
 	<dict>
 		<key>eng</key>
-		<string>Ed Sheeran - Don't 🎤</string>
+		<string>Ed Sheeran - Don&apos;t 🎤</string>
 	</dict>
-    <dict>
-        <key>eng</key>
-        <string>Be brave 📄</string>
-    </dict>
-    <dict>
-        <key>eng</key>
-        <string>Dwayne Johnson - Gummy worm 🎥</string>
-    </dict>
-    <dict>
-        <key>eng</key>
-        <string>Teahupoʻo 📄</string>
-    </dict>
-    <dict>
-        <key>eng</key>
-        <string>Ellen about muslims 🎥</string>
-    </dict>
-    <dict>
-        <key>eng</key>
-        <string>Freegans 📄</string>
-    </dict>
-    <dict>
-        <key>eng</key>
-        <string>Tyra Banks 🎥</string>
-    </dict>
-    <dict>
-        <key>eng</key>
-        <string>Lebanon 🎥</string>
-    </dict>
-    <dict>
-        <key>eng</key>
-        <string>Or nah 🎤</string>
-    </dict>
-    <dict>
-        <key>eng</key>
-        <string>Sex and the city 🎥</string>
-    </dict>
-    <dict>
-        <key>eng</key>
-        <string>Route 66 📄</string>
-    </dict>
+	<dict>
+		<key>eng</key>
+		<string>Be brave 📄</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>Dwayne Johnson - Gummy worm 🎥</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>Teahupoʻo 📄</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>Ellen about muslims 🎥</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>Freegans 📄</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>Tyra Banks 🎥</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>Mindsets 🎥</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>Lebanon 🎥</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>Or nah 🎤</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>Sex and the city 🎥</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>Route 66 📄</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>Parenting 🎥</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>Happiest people in the world 📄</string>
+	</dict>
 </array>
 </plist>

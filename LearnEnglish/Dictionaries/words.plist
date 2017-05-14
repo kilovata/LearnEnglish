@@ -74,5 +74,17 @@
 		<key>rus</key>
 		<string>нахальный, дерзкий, бесстыжий</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>anxiety</string>
+		<key>rus</key>
+		<string>тревожность, беспокойство</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>meticulous</string>
+		<key>rus</key>
+		<string>тщательный, дотошный</string>
+	</dict>
 </array>
 </plist>

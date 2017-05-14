@@ -74,5 +74,17 @@
 		<key>rus</key>
 		<string>смущать, конфузить</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>encourage</string>
+		<key>rus</key>
+		<string>поощрять, способствовать, ободрять, вселять надежду</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>run out of</string>
+		<key>rus</key>
+		<string>заканчиваться, иссякать</string>
+	</dict>
 </array>
 </plist>

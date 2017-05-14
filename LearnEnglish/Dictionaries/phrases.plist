@@ -32,5 +32,11 @@
 		<key>rus</key>
 		<string>Когда вы лучше других, лучше дать им знать в недвусмысленных выражениях, чтобы они не смущали себя, подвергая сомнению свои решения и действия</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>have you been drinking?</string>
+		<key>rus</key>
+		<string>ты что пил?</string>
+	</dict>
 </array>
 </plist>
