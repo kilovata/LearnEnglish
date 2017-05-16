@@ -86,5 +86,17 @@
 		<key>rus</key>
 		<string>тщательный, дотошный</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>daredevil</string>
+		<key>rus</key>
+		<string>смельчак, сорвиголова</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>opulent</string>
+		<key>rus</key>
+		<string>роскошный, пышный</string>
+	</dict>
 </array>
 </plist>

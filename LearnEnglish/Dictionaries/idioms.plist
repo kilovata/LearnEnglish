@@ -44,5 +44,17 @@
 		<key>rus</key>
 		<string>влюблен по уши</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>ignorance is bliss</string>
+		<key>rus</key>
+		<string>незнание - это блаженство</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>go over sb&apos;s head</string>
+		<key>rus</key>
+		<string>быть выше чьего-либо понимания</string>
+	</dict>
 </array>
 </plist>

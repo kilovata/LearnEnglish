@@ -86,5 +86,17 @@
 		<key>rus</key>
 		<string>заканчиваться, иссякать</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>hitchhike</string>
+		<key>rus</key>
+		<string>ездить автостопом</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>underestimate</string>
+		<key>rus</key>
+		<string>недооценивать</string>
+	</dict>
 </array>
 </plist>
