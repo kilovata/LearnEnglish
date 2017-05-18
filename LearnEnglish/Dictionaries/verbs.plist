@@ -98,5 +98,17 @@
 		<key>rus</key>
 		<string>недооценивать</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>demand</string>
+		<key>rus</key>
+		<string>требовать</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>lead</string>
+		<key>rus</key>
+		<string>вести, показывать путь/вести в/к/по направлению к и т. д.</string>
+	</dict>
 </array>
 </plist>

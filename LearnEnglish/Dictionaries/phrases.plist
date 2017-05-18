@@ -38,5 +38,17 @@
 		<key>rus</key>
 		<string>ты что пил?</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>it&apos;s your duty to shake that booty</string>
+		<key>rus</key>
+		<string>это твой долг трясти этой попкой</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>although she was very famous she was unhappy</string>
+		<key>rus</key>
+		<string>хотя она была очень знаменита, она была несчастна</string>
+	</dict>
 </array>
 </plist>

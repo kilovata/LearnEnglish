@@ -98,5 +98,17 @@
 		<key>rus</key>
 		<string>роскошный, пышный</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>duty</string>
+		<key>rus</key>
+		<string>долг, обязанность</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>orphan</string>
+		<key>rus</key>
+		<string>сирота</string>
+	</dict>
 </array>
 </plist>
