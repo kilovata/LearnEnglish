@@ -110,5 +110,23 @@
 		<key>rus</key>
 		<string>вести, показывать путь/вести в/к/по направлению к и т. д.</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>humiliate</string>
+		<key>rus</key>
+		<string>унижать</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>peep</string>
+		<key>rus</key>
+		<string>подглядывать/выглядывать, быть видимым</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>prove</string>
+		<key>rus</key>
+		<string>доказывать</string>
+	</dict>
 </array>
 </plist>

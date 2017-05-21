@@ -56,5 +56,11 @@
 		<key>rus</key>
 		<string>быть выше чьего-либо понимания</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>I&apos;m just pulling your leg</string>
+		<key>rus</key>
+		<string>я шучу</string>
+	</dict>
 </array>
 </plist>

@@ -110,5 +110,23 @@
 		<key>rus</key>
 		<string>сирота</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>permission</string>
+		<key>rus</key>
+		<string>разрешение</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>well</string>
+		<key>rus</key>
+		<string>колодец</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>ridiculous</string>
+		<key>rus</key>
+		<string>нелепый, смешной, глупый</string>
+	</dict>
 </array>
 </plist>

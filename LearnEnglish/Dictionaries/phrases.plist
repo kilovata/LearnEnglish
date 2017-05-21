@@ -50,5 +50,17 @@
 		<key>rus</key>
 		<string>хотя она была очень знаменита, она была несчастна</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>I wish you were down here with me</string>
+		<key>rus</key>
+		<string>жаль, что тебя нет здесь со мной</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>you&apos;re gonna make animal noises and I&apos;m gonna guess the animal</string>
+		<key>rus</key>
+		<string>ты будешь изображать звуки животных, а я буду их отгадывать</string>
+	</dict>
 </array>
 </plist>

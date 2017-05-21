@@ -20,6 +20,9 @@
 		B516A21A1EC46A7D004F63BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B516A2181EC46A7D004F63BD /* LaunchScreen.storyboard */; };
 		B516A2251EC46A7D004F63BD /* LearnEnglishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516A2241EC46A7D004F63BD /* LearnEnglishTests.swift */; };
 		B516A2301EC46A7D004F63BD /* LearnEnglishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516A22F1EC46A7D004F63BD /* LearnEnglishUITests.swift */; };
+		B575E1481ED1682200222C66 /* em19.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = B575E1451ED1682200222C66 /* em19.webarchive */; };
+		B575E1491ED1682200222C66 /* em20.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = B575E1461ED1682200222C66 /* em20.webarchive */; };
+		B575E14A1ED1682200222C66 /* em21.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = B575E1471ED1682200222C66 /* em21.webarchive */; };
 		B57CAAE81ECA495B00315574 /* em15.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = B57CAAE71ECA495B00315574 /* em15.webarchive */; };
 		B58A6F6D1ECD716500AC81F1 /* em17.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = B58A6F6B1ECD716500AC81F1 /* em17.webarchive */; };
 		B58A6F6E1ECD716500AC81F1 /* em18.webarchive in Resources */ = {isa = PBXBuildFile; fileRef = B58A6F6C1ECD716500AC81F1 /* em18.webarchive */; };
@@ -80,6 +83,9 @@
 		B516A22B1EC46A7D004F63BD /* LearnEnglishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnEnglishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B516A22F1EC46A7D004F63BD /* LearnEnglishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnEnglishUITests.swift; sourceTree = "<group>"; };
 		B516A2311EC46A7D004F63BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B575E1451ED1682200222C66 /* em19.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = em19.webarchive; sourceTree = "<group>"; };
+		B575E1461ED1682200222C66 /* em20.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = em20.webarchive; sourceTree = "<group>"; };
+		B575E1471ED1682200222C66 /* em21.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = em21.webarchive; sourceTree = "<group>"; };
 		B57CAAE71ECA495B00315574 /* em15.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = em15.webarchive; sourceTree = "<group>"; };
 		B58A6F6B1ECD716500AC81F1 /* em17.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = em17.webarchive; sourceTree = "<group>"; };
 		B58A6F6C1ECD716500AC81F1 /* em18.webarchive */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = em18.webarchive; sourceTree = "<group>"; };
@@ -222,6 +228,9 @@
 				B58DD3811ECAD8D100DDEEF1 /* em16.webarchive */,
 				B58A6F6B1ECD716500AC81F1 /* em17.webarchive */,
 				B58A6F6C1ECD716500AC81F1 /* em18.webarchive */,
+				B575E1451ED1682200222C66 /* em19.webarchive */,
+				B575E1461ED1682200222C66 /* em20.webarchive */,
+				B575E1471ED1682200222C66 /* em21.webarchive */,
 			);
 			path = Links;
 			sourceTree = "<group>";
@@ -343,10 +352,12 @@
 				B5E8EEFC1EC907FD00119D8B /* em3.webarchive in Resources */,
 				B5E8EEFE1EC907FD00119D8B /* em5.webarchive in Resources */,
 				B516A2171EC46A7D004F63BD /* Assets.xcassets in Resources */,
+				B575E14A1ED1682200222C66 /* em21.webarchive in Resources */,
 				B516A2151EC46A7D004F63BD /* Main.storyboard in Resources */,
 				B5E8EF051EC907FD00119D8B /* em12.webarchive in Resources */,
 				B5E8EF011EC907FD00119D8B /* em8.webarchive in Resources */,
 				6EAB76981EC4F65300C203E7 /* idioms.plist in Resources */,
+				B575E1481ED1682200222C66 /* em19.webarchive in Resources */,
 				6EAB76991EC4F65300C203E7 /* phrases.plist in Resources */,
 				B5E8EF041EC907FD00119D8B /* em11.webarchive in Resources */,
 				B5E8EEFD1EC907FD00119D8B /* em4.webarchive in Resources */,
@@ -361,6 +372,7 @@
 				B5E8EF071EC907FD00119D8B /* em14.webarchive in Resources */,
 				B5E8EF061EC907FD00119D8B /* em13.webarchive in Resources */,
 				6EAB769A1EC4F65300C203E7 /* verbs.plist in Resources */,
+				B575E1491ED1682200222C66 /* em20.webarchive in Resources */,
 				B58DD3821ECAD8D100DDEEF1 /* em16.webarchive in Resources */,
 				B5E8EF021EC907FD00119D8B /* em9.webarchive in Resources */,
 			);
