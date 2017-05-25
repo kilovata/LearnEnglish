@@ -128,5 +128,17 @@
 		<key>rus</key>
 		<string>доказывать</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>mean</string>
+		<key>rus</key>
+		<string>значить, иметь в виду, означать, не шутить, говорить серьезно</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>complain</string>
+		<key>rus</key>
+		<string>жаловаться</string>
+	</dict>
 </array>
 </plist>

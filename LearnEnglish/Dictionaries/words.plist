@@ -128,5 +128,17 @@
 		<key>rus</key>
 		<string>нелепый, смешной, глупый</string>
 	</dict>
+	<dict>
+		<key>eng</key>
+		<string>mean</string>
+		<key>rus</key>
+		<string>низкий, подлый, злой, жестокий, скупой</string>
+	</dict>
+	<dict>
+		<key>eng</key>
+		<string>despicable</string>
+		<key>rus</key>
+		<string>отвратительный, гадкий</string>
+	</dict>
 </array>
 </plist>
